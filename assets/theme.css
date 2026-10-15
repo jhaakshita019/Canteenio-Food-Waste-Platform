@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+:root {
+  --color-sage: #DCEBDC;
+  --color-forest: #2E6B52;
+  --color-ink: #192D26;
+  --color-canteen: #243B5A;
+  --color-ngo: #F4E4E5;
+  --color-admin: #B58B36;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

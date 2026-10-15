@@ -1,0 +1,506 @@
+{
+  "version": 4,
+  "app_title": "Canteenio MVP Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-07e49b29",
+      "name": "Public home",
+      "route": "/",
+      "item_ref": {
+        "index": 1,
+        "text": "Build the canteen workspace with local demo food inventory, preparation and sales screens, surplus management, branch-wise break views, notifications, messaging UI, and clearly labelled demo analytics."
+      },
+      "blocks": [
+        {
+          "id": "home-nav",
+          "type": "nav",
+          "label": "Canteenio header",
+          "hint": "Logo; Home, How It Works, Available Food, About Us, Login, Get Started",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the canteen workspace with local demo food inventory, preparation and sales screens, surplus management, branch-wise break views, notifications, messaging UI, and clearly labelled demo analytics."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-hero",
+          "type": "hero",
+          "label": "Smarter Canteens hero",
+          "hint": "Headline, supporting copy, two actions, genuine meal photograph",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the canteen workspace with local demo food inventory, preparation and sales screens, surplus management, branch-wise break views, notifications, messaging UI, and clearly labelled demo analytics."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-assistant",
+          "type": "form",
+          "label": "Canteenio AI Assistant",
+          "hint": "Visible chat panel with six question chips and record-backed answers",
+          "x": 0,
+          "y": 5,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the canteen workspace with local demo food inventory, preparation and sales screens, surplus management, branch-wise break views, notifications, messaging UI, and clearly labelled demo analytics."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-impact",
+          "type": "list",
+          "label": "Available food and impact",
+          "hint": "Live availability and only record-supported metrics",
+          "x": 5,
+          "y": 5,
+          "w": 7,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the canteen workspace with local demo food inventory, preparation and sales screens, surplus management, branch-wise break views, notifications, messaging UI, and clearly labelled demo analytics."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-workflow",
+          "type": "text",
+          "label": "How it works",
+          "hint": "Seven-step preparation-to-redistribution workflow",
+          "x": 0,
+          "y": 9,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the canteen workspace with local demo food inventory, preparation and sales screens, surplus management, branch-wise break views, notifications, messaging UI, and clearly labelled demo analytics."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-features",
+          "type": "card_grid",
+          "label": "Platform features",
+          "hint": "Eight practical feature cards and About Us",
+          "x": 0,
+          "y": 12,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the canteen workspace with local demo food inventory, preparation and sales screens, surplus management, branch-wise break views, notifications, messaging UI, and clearly labelled demo analytics."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-f2215fda",
+      "name": "Canteen workspace",
+      "route": "/canteen",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+      },
+      "blocks": [
+        {
+          "id": "canteen-nav",
+          "type": "sidebar",
+          "label": "Canteen navigation",
+          "hint": "Overview, Food, Surplus, Announcements, Messages",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 10,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "canteen-header",
+          "type": "header",
+          "label": "Canteen overview",
+          "hint": "Date, account, and quick preparation action",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "canteen-stats",
+          "type": "kpi",
+          "label": "Daily operation metrics",
+          "hint": "Prepared, sold, remaining, and collected from stored records",
+          "x": 2,
+          "y": 1,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "canteen-chart",
+          "type": "chart_bar",
+          "label": "Demand and popular dishes",
+          "hint": "Visible bars from historical sales and forecast",
+          "x": 2,
+          "y": 3,
+          "w": 6,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "canteen-alerts",
+          "type": "list",
+          "label": "Break alerts and announcements",
+          "hint": "Crowd forecast and published notices",
+          "x": 8,
+          "y": 3,
+          "w": 4,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "canteen-food",
+          "type": "table",
+          "label": "Food and surplus records",
+          "hint": "Add/edit batches, mark safe surplus, review NGO requests",
+          "x": 2,
+          "y": 6,
+          "w": 10,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "canteen-messages",
+          "type": "form",
+          "label": "Messages and collection coordination",
+          "hint": "Conversation and reply composer",
+          "x": 0,
+          "y": 10,
+          "w": 10,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-525021da",
+      "name": "NGO workspace",
+      "route": "/ngo",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+      },
+      "blocks": [
+        {
+          "id": "ngo-nav",
+          "type": "sidebar",
+          "label": "NGO navigation",
+          "hint": "Overview, Available Food, Requests, Collections, Messages",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 10,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ngo-header",
+          "type": "header",
+          "label": "NGO overview",
+          "hint": "Organization identity and verification status",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ngo-stats",
+          "type": "kpi",
+          "label": "Collection overview",
+          "hint": "Available, requested, scheduled, collected",
+          "x": 2,
+          "y": 1,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ngo-food",
+          "type": "table",
+          "label": "Available surplus",
+          "hint": "Food details, safety window, and request action",
+          "x": 2,
+          "y": 3,
+          "w": 10,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ngo-requests",
+          "type": "list",
+          "label": "Requests and pickup timeline",
+          "hint": "Statuses and collection confirmation",
+          "x": 2,
+          "y": 7,
+          "w": 6,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ngo-messages",
+          "type": "form",
+          "label": "Canteen conversation",
+          "hint": "Messages and reply composer",
+          "x": 8,
+          "y": 7,
+          "w": 4,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-a39534c9",
+      "name": "Admin workspace",
+      "route": "/admin",
+      "item_ref": {
+        "index": 3,
+        "text": "Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity."
+      },
+      "blocks": [
+        {
+          "id": "admin-nav",
+          "type": "sidebar",
+          "label": "Admin navigation",
+          "hint": "Overview, Verification, Students, Breaks, Oversight",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-header",
+          "type": "header",
+          "label": "Admin overview",
+          "hint": "System activity and verification queue",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-stats",
+          "type": "kpi",
+          "label": "System metrics",
+          "hint": "Users, NGOs, food records, and distribution",
+          "x": 2,
+          "y": 1,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-verification",
+          "type": "table",
+          "label": "NGO verification",
+          "hint": "Review organization details and approve/reject badge",
+          "x": 2,
+          "y": 3,
+          "w": 10,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-students",
+          "type": "table",
+          "label": "Enrollment and attendance settings",
+          "hint": "Editable aggregate year/branch allocations and distinct planning metrics",
+          "x": 2,
+          "y": 6,
+          "w": 6,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-breaks",
+          "type": "form",
+          "label": "Break slot and schedule manager",
+          "hint": "Slot times, branch/year assignment, attendance, demand, active status",
+          "x": 8,
+          "y": 6,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-oversight",
+          "type": "table",
+          "label": "Food and user oversight",
+          "hint": "Inspect records and accounts without inventing impact",
+          "x": 2,
+          "y": 10,
+          "w": 10,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-5838dfa0",
+      "name": "Sign in",
+      "route": "/login",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+      },
+      "blocks": [
+        {
+          "id": "login-nav",
+          "type": "nav",
+          "label": "Canteenio identity",
+          "hint": "Return to public home",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "login-form",
+          "type": "form",
+          "label": "Account access",
+          "hint": "Sign in and register; role-aware routing and clear errors",
+          "x": 0,
+          "y": 1,
+          "w": 6,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "login-context",
+          "type": "text",
+          "label": "Mission context",
+          "hint": "Prepare smarter. Waste less. Share more.",
+          "x": 6,
+          "y": 1,
+          "w": 6,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}

@@ -1,0 +1,5 @@
+## Canteenio Demo UI Plan
+- [x] Build the responsive public home page with the Canteenio identity, genuine food photography, workflow and feature sections, clearly labelled demo impact and food availability, and a visible data-driven demo chatbot interface.
+- [x] Build the canteen workspace with local demo food inventory, preparation and sales screens, surplus management, branch-wise break views, notifications, messaging UI, and clearly labelled demo analytics.
+- [x] Build the NGO workspace with a 15-organization demo directory, golden verification badges only for approved examples, available food, collection requests, and messaging UI with clearly labelled demo status.
+- [ ] Build the admin workspace for demo NGO verification, users and food oversight, editable aggregate enrollment and attendance assumptions, configurable break slots and branch/year schedules, and notification settings; keep Supabase integration seams ready without claiming live connectivity.
